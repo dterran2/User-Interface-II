@@ -1,1 +1,25 @@
-/* Add CSS styling here */
+header{
+    background-color: pink;
+}
+nav{
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+a{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+h1{
+    color: red;
+}
+body{
+    background-color: brown;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+
+}
