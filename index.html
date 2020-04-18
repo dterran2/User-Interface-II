@@ -9,22 +9,28 @@
 </head>
 <body>
     <Header>
-        <h1>Donavan Terranova</h1>
-        <nav>
-            <a href='index.html'>Home</a>
-            <a href='about.html'>About</a>
-            <a href='contact.html'>Contact</a>
-            <a href='projects.html'>Projects</a>
+        <h1 class="main-title">Donavan Terranova</h1>
+        <nav class="topnav-container">
+           <a class="btn"href='index.html'>Home</a>
+           <a class="btn" href='about.html'>About</a>
+           <a class="btn" href='contact.html'>Contact</a>
+           <a class="btn" href='projects.html'>Projects</a>
         </nav>
     </Header>
     <Section class='about'>
-        
+        <!-- 
+            img-container is going to be 100% of the width in mobile views. and 50% in desktop
+         -->
+        <div class="img-container">
+            <!-- 
+                100% width and 1rem padding
+             -->
         <img src='https://picsum.photos/200' class='myPic'>
-        
+    </div>
         <div class='bio'> 
             <h2>Donavan Terranova</h2>
                 <div>
-                    <a href='projects.html' class='myProjectButton'>My Projects</a>
+                   <a  href='projects.html' class='myProjectButton btn'>My Projects</a>
                 </div>
             <p>"Hello you cool cats and kittens" - Carole Baskin</p>
             <p>I'm a new web developer and I am here to create new content that fits you and your story. I graduated with my associates degree, medical assistings certification, and massage therapy license. With all this training I have learned how to listen and work with clients to help provide them the best service.</p>
@@ -43,10 +49,15 @@
     </section>
 </body>
 <Footer>
-    <p>Like what you see?</p>
-    <a href='contact.html'>Contact Me</a>
-    <a href='https://www.facebook.com/profile.php?id=636659803&ref=br_rs'>Facebook</a>
-    <a href='https://www.instagram.com/donavanterranova/'>Instagram</a>
+    <p class="text-center">Like what you see?</p>
+    <div class="projects">
+
+        <a class="btn btn-sm" href='contact.html'>Contact Me</a>
+        <a class="btn btn-sm" href='https://www.facebook.com/profile.php?id=636659803&ref=br_rs'>Facebook</a>
+        <a class="btn btn-sm" href='https://www.instagram.com/donavanterranova/'>Instagram</a>
+
+    </div>
+  
 </Footer>
 
 </html>
